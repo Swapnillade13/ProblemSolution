@@ -1,4 +1,4 @@
-package dsa.datastructure.problems;
+package dsa.datastructure.problems.slidingwindow;
 
 import java.util.ArrayList;
 import java.util.Arrays;

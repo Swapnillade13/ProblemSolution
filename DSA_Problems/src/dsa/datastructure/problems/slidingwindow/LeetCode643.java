@@ -1,4 +1,4 @@
-package dsa.datastructure.problems;
+package dsa.datastructure.problems.slidingwindow;
 
 public class LeetCode643 {
 
