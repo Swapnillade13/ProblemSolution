@@ -8,7 +8,7 @@ public class LeetCodeMaxAvg {
 	public int maxSubarrayOfSizeK(int k, int[] nums) {
 		int startwindow = 0;
 		int windowsum = 0;
-		int maxAvg = 0;
+		int maxAvg = Integer.MAX_VALUE;
 		
 		for(int windowEnd = 0; windowEnd < nums.length; windowEnd++) {
 			windowsum += nums[windowEnd];
